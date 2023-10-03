@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  <head>
+    <title>Josua Krause</title>
+    <meta http-equiv="refresh" content="0; url=https://www.josuakrause.com/" />
+  </head>
+  <body onload="start()">
+    <div id="main" style="display: none;">
+      <p>Please <a href="https://www.josuakrause.com/">click here</a> if your browser does not redirect you automatically.</p>
+    </div>
+    <noscript>
+      <p>Please <a href="https://www.josuakrause.com/">click here</a> if your browser does not redirect you automatically.</p>
+    </noscript>
+  </body>
+  <script>
+    function start() {
+      setTimeout(function() {
+        var elem = document.getElementById("main");
+        elem.style.removeProperty("display");
+      }, 500);
+    }
+  </script>
+</html>
